@@ -2,18 +2,22 @@
 $answerArr = [
     'lion' => [
         'imgUrl' => 'https://i.imgur.com/5URfXJw.jpg',
+        'previewImgUrl' => 'https://i.imgur.com/lF2rvkf.jpg',
         'title' => '獅子王',
     ],
     'polar_bear' => [
         'imgUrl' => 'https://i.imgur.com/MSwAR8T.jpg',
+        'previewImgUrl' => 'https://i.imgur.com/X9J8fzg.jpg',
         'title' => '北極熊',
     ],
     'camel' => [
         'imgUrl' => 'https://i.imgur.com/Xl512CL.jpg',
+        'previewImgUrl' => 'https://i.imgur.com/QRki0Lx.jpg',
         'title' => '駱駝',
     ],
     'jellyfish' => [
         'imgUrl' => 'https://i.imgur.com/wJbZs3i.jpg',
+        'previewImgUrl' => 'https://i.imgur.com/glTVTSh.jpg',
         'title' => '水母',
     ],
 ];
@@ -27,8 +31,8 @@ $answer = $answerArr[$_GET['animal']]; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="你的父母型態是...<?php echo $answer['title'] ?>">
     <meta property="og:description" content="你的父母型態是...<?php echo $answer['title'] ?>">
-    <meta property="og:image" content="<?php echo $answer['imgUrl'] ?>">
-    <meta property="og:image:url" content="<?php echo $answer['imgUrl'] ?>">
+    <meta property="og:image" content="<?php echo $answer['previewImgUrl'] ?>">
+    <meta property="og:image:url" content="<?php echo $answer['previewImgUrl'] ?>">
     <title>親子座談測驗結果</title>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
