@@ -2,22 +2,22 @@
 $answerArr = [
     'lion' => [
         'imgUrl' => 'https://i.imgur.com/5URfXJw.jpg',
-        'previewImgUrl' => 'https://i.imgur.com/lF2rvkf.jpg',
+        'previewImgUrl' => 'https://i.imgur.com/30KFm0p.png',
         'title' => '獅子王',
     ],
     'polar_bear' => [
         'imgUrl' => 'https://i.imgur.com/MSwAR8T.jpg',
-        'previewImgUrl' => 'https://i.imgur.com/X9J8fzg.jpg',
+        'previewImgUrl' => 'https://i.imgur.com/pUVdyQL.png',
         'title' => '北極熊',
     ],
     'camel' => [
         'imgUrl' => 'https://i.imgur.com/Xl512CL.jpg',
-        'previewImgUrl' => 'https://i.imgur.com/QRki0Lx.jpg',
+        'previewImgUrl' => 'https://i.imgur.com/HT5AQEO.png',
         'title' => '駱駝',
     ],
     'jellyfish' => [
         'imgUrl' => 'https://i.imgur.com/wJbZs3i.jpg',
-        'previewImgUrl' => 'https://i.imgur.com/glTVTSh.jpg',
+        'previewImgUrl' => 'https://i.imgur.com/vUl2zTP.png',
         'title' => '水母',
     ],
 ];
