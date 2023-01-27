@@ -1,24 +1,24 @@
 <?php
 $answerArr = [
-    'lion' => [
-        'imgUrl' => 'https://i.imgur.com/5URfXJw.jpg',
-        'previewImgUrl' => 'https://i.imgur.com/30KFm0p.png',
-        'title' => '獅子王',
+    'NINJA' => [
+        'imgUrl' => 'https://i.imgur.com/01NsPDl.png',
+        'previewImgUrl' => 'https://i.imgur.com/01NsPDl.png',
+        'title' => '忍者',
     ],
-    'polar_bear' => [
-        'imgUrl' => 'https://i.imgur.com/MSwAR8T.jpg',
-        'previewImgUrl' => 'https://i.imgur.com/pUVdyQL.png',
-        'title' => '北極熊',
+    'SNOWMAN' => [
+        'imgUrl' => 'https://i.imgur.com/lNJjDQW.png',
+        'previewImgUrl' => 'https://i.imgur.com/lNJjDQW.png',
+        'title' => '雪寶',
     ],
-    'camel' => [
-        'imgUrl' => 'https://i.imgur.com/Xl512CL.jpg',
-        'previewImgUrl' => 'https://i.imgur.com/HT5AQEO.png',
-        'title' => '駱駝',
+    'MONKEY' => [
+        'imgUrl' => 'https://i.imgur.com/smp1y9Q.png',
+        'previewImgUrl' => 'https://i.imgur.com/smp1y9Q.png',
+        'title' => '悟空',
     ],
-    'jellyfish' => [
-        'imgUrl' => 'https://i.imgur.com/wJbZs3i.jpg',
-        'previewImgUrl' => 'https://i.imgur.com/vUl2zTP.png',
-        'title' => '水母',
+    'AVATAR' => [
+        'imgUrl' => 'https://i.imgur.com/ub6VTtO.png',
+        'previewImgUrl' => 'https://i.imgur.com/ub6VTtO.png',
+        'title' => '阿凡達',
     ],
 ];
 $answer = $answerArr[$_GET['animal']]; ?>
@@ -29,8 +29,8 @@ $answer = $answerArr[$_GET['animal']]; ?>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="你的父母型態是...<?php echo $answer['title'] ?>">
-    <meta property="og:description" content="你的父母型態是...<?php echo $answer['title'] ?>">
+    <meta property="og:title" content="你的情緒原型是...<?php echo $answer['title'] ?>">
+    <meta property="og:description" content="你的情緒原型是...<?php echo $answer['title'] ?>">
     <meta property="og:image" content="<?php echo $answer['previewImgUrl'] ?>">
     <meta property="og:image:url" content="<?php echo $answer['previewImgUrl'] ?>">
     <title>情緒原型評測結果</title>
