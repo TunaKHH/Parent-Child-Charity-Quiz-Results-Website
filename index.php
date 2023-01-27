@@ -33,7 +33,7 @@ $answer = $answerArr[$_GET['animal']]; ?>
     <meta property="og:description" content="你的父母型態是...<?php echo $answer['title'] ?>">
     <meta property="og:image" content="<?php echo $answer['previewImgUrl'] ?>">
     <meta property="og:image:url" content="<?php echo $answer['previewImgUrl'] ?>">
-    <title>親子座談測驗結果</title>
+    <title>情緒原型評測結果</title>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <!-- CSS only -->
