@@ -61,7 +61,7 @@ $answer = $answerArr[$_GET['animal']]; ?>
             </div>
             <div class="col-12">
                 <div class="d-grid gap-2 mt-3">
-                    <a href="https://page.line.me/?accountId=845ibhra" class="btn btn-lg" type="button" style="color:white;background-color: #1ec92f">點擊測驗 : 我的情緒原型 是哪個代表人物 ?</a>
+                    <a href="https://page.line.me/?accountId=335euuhh" class="btn btn-lg" type="button" style="color:white;background-color: #1ec92f">點擊測驗 : 我的情緒原型 是哪個代表人物 ?</a>
                 </div>
             </div>
         </div>
